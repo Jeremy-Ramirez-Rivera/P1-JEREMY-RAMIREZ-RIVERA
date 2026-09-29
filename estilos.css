@@ -1,0 +1,131 @@
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-image: url("imagenes/fondo.jpg");
+  background-repeat: repeat;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #b0c4de;
+}
+
+body > img[alt="fondo"] {
+  display: flex;
+}
+
+body > img[alt="logo"] {
+  width: 90px;
+  float: left; 
+border-radius: 50%;
+}
+#copyright{
+ text-align: right;
+}
+h1 {
+  text-align: right;
+  color: #0099ff;
+  text-shadow: 7px 7px 8px black;
+}
+
+#cabeza {
+  clear: both;
+  padding-top: 10px;
+  border-top: 2px solid #b0c4de; 
+}
+
+h2 {
+  font-size: 20px;
+}
+
+#cabeza p {
+  line-height: 1.4;
+  color: #333;
+  font-size: 13px; 
+}
+
+#cuerpo, #cuerpo2 {
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid #333; 
+  padding: 12px;
+  margin: 10px 0 25px 0;
+}
+
+.columna-uno, .columna-dos, .columna-tres,
+.pilar-uno, .pilar-dos, .pilar-tres {
+  width: 31.5%;
+  border: 1px solid #b0b0b0; 
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+h3 {
+  color: white;
+  padding: 8px 6px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.columna-uno, .pilar-uno{
+  background-color: rgb(255, 225, 225);
+}
+.columna-dos, .pilar-dos{
+  background-color: rgb(229, 248, 255);
+}
+.columna-tres, .pilar-tres{
+  background-color: rgb(242, 255, 224);
+}
+.columna-uno > h3, .pilar-uno > h3 {
+  background-color: #e53935; 
+  margin: 5px 10px 5px 10px;
+}
+
+.columna-dos > h3, .pilar-dos > h3 {
+  background-color: #0070c0; 
+  margin: 5px 10px 5px 10px;
+}
+
+.columna-tres > h3, .pilar-tres > h3 {
+  background-color: #689f38; 
+  margin: 5px 10px 5px 10px;
+}
+
+#cuerpo p, #cuerpo2 p {
+  padding: 10px 8px;
+  font-size: 11.5px;
+  line-height: 1.35;
+  color: #444;
+}
+#cuerpo img {
+  display: block;
+  max-width: 75px;
+  margin: auto auto 12px auto; 
+}
+
+body > img[alt="casa"] {
+  display: block;
+  max-width: 320px;
+  margin: 20px auto;
+  box-shadow: 10px 10px 20px ;
+}
+
+#pie {
+  border-top: 2px solid #000102;
+  padding-top: 15px;
+  margin-top: 20px; 
+}
+
+#pie p {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 12px 20px;
+  text-align: center;
+  box-shadow: 5px 5px 10px;
+}
